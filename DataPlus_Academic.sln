@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataPlus.Contracts", "DataPlus.Contracts\DataPlus.Contracts.csproj", "{8E36A861-95FA-4207-9CB5-009187A57C53}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataPlus.Academic", "DataPlus.Academic\DataPlus.Academic.csproj", "{AB8E568D-21A8-473E-B61B-347AD7D8CD0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataPlus.Services", "DataPlus.Services\DataPlus.Services.csproj", "{C601C980-815D-4279-BB0C-15C6E9C9E54E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataPlus.Entities", "DataPlus.Entities\DataPlus.Entities.csproj", "{C1853030-C196-469E-A782-B478635962DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataPlus.Repository", "DataPlus.Repository\DataPlus.Repository.csproj", "{49E052F7-AB48-4718-8310-D0D0D5113F0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{663575A9-5034-436A-AF39-8582BD34B328}"
+	ProjectSection(SolutionItems) = preProject
+		Models\DataPlus_Academic.vsdx = Models\DataPlus_Academic.vsdx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataPlus.Test", "DataPlus.Test\DataPlus.Test.csproj", "{A37068AE-F355-49CD-91A3-024C3BE3D083}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E36A861-95FA-4207-9CB5-009187A57C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E36A861-95FA-4207-9CB5-009187A57C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E36A861-95FA-4207-9CB5-009187A57C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E36A861-95FA-4207-9CB5-009187A57C53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8E568D-21A8-473E-B61B-347AD7D8CD0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8E568D-21A8-473E-B61B-347AD7D8CD0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8E568D-21A8-473E-B61B-347AD7D8CD0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8E568D-21A8-473E-B61B-347AD7D8CD0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C601C980-815D-4279-BB0C-15C6E9C9E54E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C601C980-815D-4279-BB0C-15C6E9C9E54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C601C980-815D-4279-BB0C-15C6E9C9E54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C601C980-815D-4279-BB0C-15C6E9C9E54E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1853030-C196-469E-A782-B478635962DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1853030-C196-469E-A782-B478635962DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1853030-C196-469E-A782-B478635962DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1853030-C196-469E-A782-B478635962DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E052F7-AB48-4718-8310-D0D0D5113F0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E052F7-AB48-4718-8310-D0D0D5113F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E052F7-AB48-4718-8310-D0D0D5113F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E052F7-AB48-4718-8310-D0D0D5113F0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A37068AE-F355-49CD-91A3-024C3BE3D083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37068AE-F355-49CD-91A3-024C3BE3D083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37068AE-F355-49CD-91A3-024C3BE3D083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37068AE-F355-49CD-91A3-024C3BE3D083}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DFF048C-144A-4DD5-ACAD-31642BC145FA}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://idvillota.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DataPlus.Contracts\\DataPlus.Contracts.csproj
+		SccProjectName1 = DataPlus.Contracts
+		SccLocalPath1 = DataPlus.Contracts
+		SccProjectUniqueName2 = DataPlus.Academic\\DataPlus.Academic.csproj
+		SccProjectName2 = DataPlus.Academic
+		SccLocalPath2 = DataPlus.Academic
+		SccProjectUniqueName3 = DataPlus.Services\\DataPlus.Services.csproj
+		SccProjectName3 = DataPlus.Services
+		SccLocalPath3 = DataPlus.Services
+		SccProjectUniqueName4 = DataPlus.Entities\\DataPlus.Entities.csproj
+		SccProjectName4 = DataPlus.Entities
+		SccLocalPath4 = DataPlus.Entities
+		SccProjectUniqueName5 = DataPlus.Repository\\DataPlus.Repository.csproj
+		SccProjectName5 = DataPlus.Repository
+		SccLocalPath5 = DataPlus.Repository
+		SccProjectUniqueName6 = DataPlus.Test\\DataPlus.Test.csproj
+		SccProjectName6 = DataPlus.Test
+		SccLocalPath6 = DataPlus.Test
+	EndGlobalSection
+EndGlobal
